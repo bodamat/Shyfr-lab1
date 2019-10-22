@@ -1,0 +1,9 @@
+<div id="info">
+	<p>Подстановка при шифровании: <span class="code">y = (K * x + A) % n</span>, где</p>
+	<p><span class="code">K</span> и <span class="code">A</span> задаются на форме,
+		<span class="code">x</span> – позиция шифруемого символа в алфавите,
+		а <span class="code">n</span> – количество символов в алфавите. Символы, не встречающиеся в алфавите
+		не шифруются.</p>
+	<p>Дешифровка осуществляется по формуле <span class="code">x = (inv[K] * (y + n - A)) % n</span>, где</p>
+	<p><span class="code">inv[K]</span> – такое число, что <span class="code">(inv[K] * K) % n = 1</span>.</p>
+</div>

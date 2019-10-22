@@ -1,0 +1,185 @@
+/* common */
+html,
+body {
+	position: relative;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	font-size: 100%;
+}
+
+#wrapper {
+	padding: 50px 0 100px 0;
+	position: relative;
+}
+
+#main {
+	margin: 0 auto 4px;
+	width: 700px;
+	background-color: #FCFCFC;
+	border-radius: 20px;
+	box-shadow: 0 0 5px #AAA;
+	padding: 40px;
+}
+
+#footer {
+	font-size: 14px;
+	width: 700px;
+	margin: 0 auto;
+	background-color: #F5F9FF;
+	padding: 15px 40px;
+	color: #999;
+	box-shadow: 0 0 5px #AAA;
+	border-radius: 10px;
+}
+
+#footer div {
+	float: right;
+	margin-top: -1px;
+	font-size: 14px;
+}
+
+#footer a {
+	font-size: 14px;
+}
+
+* {
+	font-family: "Segoe UI", "Calibri", "Ubuntu", "Trebuchet MS", sans-serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-shadow: -1px 1px 0px #F5F5F5;
+}
+
+::selection {
+	text-shadow: none;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+hr {
+	margin: 10px 0;
+	height: 1px;
+	background-color: lightgrey;
+	border: none;
+	box-shadow: 0px 1px 1px #FFF;
+}
+
+.header {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+h1 {
+	font-weight: normal;
+	letter-spacing: 2px;
+	font-size: 110%;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid #3696C6;
+	color: #3696C6;
+}
+
+a:hover {
+	border-bottom: 1px solid #8ED7FB;
+}
+
+/* forms */
+textarea,
+input {
+	font-size: 100%;
+}
+
+textarea:focus,
+input:focus {
+	box-shadow: 0 0 3px #D3D3D3;
+}
+
+textarea {
+	border-radius: 4px;
+	width: 680px;
+	height: 100px;
+	border: 1px solid lightgrey;
+	padding: 5px 10px;
+	resize: vertical;
+}
+
+input {
+	border-radius: 4px;
+	width: 680px;
+	padding: 5px 10px;
+	border: 1px solid lightgrey;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 8px 16px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-color: #2491C8;
+	border: none;
+	color: white;
+	font-size: 115%;
+	text-shadow: none;
+	width: 100%;
+}
+
+button:hover {
+	background-color: #2988B8;
+}
+
+button:active {
+	box-shadow: 0 0 2px #155F83;
+}
+
+.lab {
+	margin-bottom: 10px;
+}
+
+label {
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+/* panel */
+.cpanel {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.cpanel input {
+	width: 100px;
+}
+
+#error {
+	display: none;
+	color: maroon;
+	margin: 15px 0 10px 0;
+}
+
+/* info */
+#info p {
+	font-size: 87%;
+	color: #4E4E4E;
+	text-align: justify;
+	text-indent: 35px;
+	padding: 5px 0;
+	line-height: 150%;
+}
+
+span.code {
+	font-family: "Consolas", "Ubuntu Mono", "Andale Mono", monospace;
+	background-color: #EEE;
+	border-radius: 3px;
+	padding: 3px 6px;
+	color: #101010;
+	text-shadow: -1px 1px 0px #EEE;
+}
