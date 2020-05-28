@@ -1,2 +1,2 @@
 # Shyfr-lab1
-lab1 OS
+This is lab for lesson OS writed in js
